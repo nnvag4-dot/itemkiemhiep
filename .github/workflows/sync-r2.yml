@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - '*.png'
+  workflow_dispatch: # Cho phép bấm nút chạy thủ công bất kỳ lúc nào
 
 jobs:
   deploy:
